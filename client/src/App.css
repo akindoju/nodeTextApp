@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+input {
+  outline: none;
+  padding: 8px;
+  width: 20%;
+  margin-right: 10px;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: rgb(29, 190, 115);
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.98);
+}
