@@ -9,16 +9,25 @@ input {
   margin-right: 10px;
 }
 
-button {
+.button-1,
+.button-2 {
   outline: none;
   border: none;
-  background-color: rgb(29, 190, 115);
   padding: 10px;
   border-radius: 4px;
   color: white;
   cursor: pointer;
 }
 
-button:active {
+.button-1 {
+  background-color: rgb(80, 117, 218);
+}
+
+.button-2 {
+  background-color: rgb(29, 190, 83);
+}
+
+.button-:active,
+.button-2:active {
   transform: scale(0.98);
 }
